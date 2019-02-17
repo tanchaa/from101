@@ -5,11 +5,15 @@ import { AppComponent } from './app.component';
 import{
   FormsModule,
   ReactiveFormsModule
-}from '@angular/forms'
+}from '@angular/forms';
+import { Form101Component } from './form101/form101.component';
+import { DetailComponent } from './detail/detail.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Form101Component,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
