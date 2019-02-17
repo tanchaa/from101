@@ -21,5 +21,8 @@ export class Form101Component implements OnInit {
       lastName: ['']
     })
   }
+  onSubmit(form: FormGroup){
+    console.log(form);
+  }
 
 }
