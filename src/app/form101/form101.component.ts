@@ -20,7 +20,7 @@ export class Form101Component implements OnInit {
     this.formGroup = this.formBulid.group({
       firstName: [''],
       lastName: [''],
-      Age:[22],
+      Age:[''],
       eMail: ['']
     })
   }
